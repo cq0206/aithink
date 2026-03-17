@@ -1,0 +1,24 @@
+{
+  "name": "aithink",
+  "version": "1.0.0",
+  "description": "AI high-signal content hub powered by VitePress",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cq0206/aithink.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cq0206/aithink/issues"
+  },
+  "homepage": "https://github.com/cq0206/aithink#readme",
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.16"
+  }
+}
