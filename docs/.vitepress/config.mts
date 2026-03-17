@@ -7,7 +7,7 @@ export default defineConfig(() => {
     title: "AI Think",
     description: "AI 高质量信息源精选：X/Twitter、播客、论文、研究机构",
     lang: "zh-CN",
-    base: "/aithink/",
+    base: "/",
     cleanUrls: true,
     lastUpdated: true,
     head: gaId
