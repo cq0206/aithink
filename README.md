@@ -19,3 +19,14 @@ npm run docs:dev
 npm run docs:build
 npm run docs:preview
 ```
+
+## Google Analytics（GA4）
+
+1. 在本地创建 `.env.local` 并配置：
+
+```bash
+VITEPRESS_GA_ID=G-XXXXXXXXXX
+```
+
+2. 本地启动后打开页面，使用浏览器开发者工具检查是否加载 `gtag/js`。
+3. GitHub Pages 部署时，在仓库 `Settings > Secrets and variables > Actions` 新增 `VITEPRESS_GA_ID`。

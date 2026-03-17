@@ -2,6 +2,10 @@
 
 > 目标：建立“每天 30 分钟”的高信号输入流。
 
+## 本周精选文章
+
+- [DeRonin 长文入口（含点评）](/sources/deronin-2033587293064204349)
+
 ## 模型与研究
 
 - [Andrej Karpathy](https://x.com/karpathy): LLM 训练、推理、工程直觉。
