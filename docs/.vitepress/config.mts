@@ -47,6 +47,10 @@ gtag('config', '${gaId}');`
                 items: [
                   { text: "X / Twitter", link: "/sources/x-twitter" },
                   {
+                    text: "OpenAI 前端文章",
+                    link: "/sources/openai-gpt54-frontends"
+                  },
+                  {
                     text: "DeRonin 文章点评",
                     link: "/sources/deronin-2033587293064204349"
                   },
@@ -100,6 +104,10 @@ gtag('config', '${gaId}');`
                 text: "Sources",
                 items: [
                   { text: "X / Twitter", link: "/en/sources/x-twitter" },
+                  {
+                    text: "OpenAI Frontend Article",
+                    link: "/en/sources/openai-gpt54-frontends"
+                  },
                   {
                     text: "DeRonin Article Note",
                     link: "/en/sources/deronin-2033587293064204349"
