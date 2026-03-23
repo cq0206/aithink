@@ -1,8 +1,6 @@
 # 用 GPT-5.4 设计更令人愉悦的前端
 
-> 说明：本文为 OpenAI 官方文章的完整中文翻译版，原文链接见文首。为保证阅读流畅，个别术语在首次出现时附带简短说明。
->
-> 原文来源：[Designing delightful frontends with GPT-5.4](https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4)
+原文：<https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4>
 
 发布日期：2026-03-20  
 作者：Brian Fioca、Alistair Gillespie、Kevin Leneway、Robert Tinn
