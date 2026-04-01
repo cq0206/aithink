@@ -47,10 +47,6 @@ gtag('config', '${gaId}');`
                 items: [
                   { text: "X / Twitter", link: "/sources/x-twitter" },
                   {
-                    text: "Claude Code 架构解析",
-                    link: "/sources/claude-code-architecture-v2"
-                  },
-                  {
                     text: "OpenAI 前端文章",
                     link: "/sources/openai-gpt54-frontends"
                   },
@@ -64,6 +60,27 @@ gtag('config', '${gaId}');`
                   },
                   { text: "优秀播客", link: "/sources/podcasts" },
                   { text: "经典论文", link: "/sources/papers" }
+                ]
+              },
+              {
+                text: "Claude Code 专题",
+                items: [
+                  {
+                    text: "专题总览",
+                    link: "/sources/claude-code"
+                  },
+                  {
+                    text: "源码架构解析",
+                    link: "/sources/claude-code-architecture-v2"
+                  },
+                  {
+                    text: "Claude Code 设计指南",
+                    link: "/sources/harness-book-claude-code-guide"
+                  },
+                  {
+                    text: "Claude Code 与 Codex",
+                    link: "/sources/harness-book-claude-code-vs-codex"
+                  }
                 ]
               }
             ],
@@ -122,6 +139,23 @@ gtag('config', '${gaId}');`
                   },
                   { text: "Podcasts", link: "/en/sources/podcasts" },
                   { text: "Papers", link: "/en/sources/papers" }
+                ]
+              },
+              {
+                text: "Claude Code",
+                items: [
+                  {
+                    text: "Module Overview",
+                    link: "/en/sources/claude-code"
+                  },
+                  {
+                    text: "Claude Code Guide",
+                    link: "/sources/harness-book-claude-code-guide"
+                  },
+                  {
+                    text: "Claude Code vs Codex",
+                    link: "/sources/harness-book-claude-code-vs-codex"
+                  }
                 ]
               }
             ],
