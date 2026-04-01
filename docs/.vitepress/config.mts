@@ -51,6 +51,10 @@ gtag('config', '${gaId}');`
                     link: "/sources/openai-gpt54-frontends"
                   },
                   {
+                    text: "模块，不是微服务",
+                    link: "/sources/modules-not-microservices"
+                  },
+                  {
                     text: "DeRonin 文章点评",
                     link: "/sources/deronin-2033587293064204349"
                   },
