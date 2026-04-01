@@ -47,6 +47,10 @@ gtag('config', '${gaId}');`
                 items: [
                   { text: "X / Twitter", link: "/sources/x-twitter" },
                   {
+                    text: "Claude Code 架构解析",
+                    link: "/sources/claude-code-architecture-v2"
+                  },
+                  {
                     text: "OpenAI 前端文章",
                     link: "/sources/openai-gpt54-frontends"
                   },
