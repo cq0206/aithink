@@ -15,6 +15,20 @@ Claude Code 已经不是“一个会写代码的 CLI”这么简单了。
 2. [Harness Engineering：Claude Code 设计指南](/sources/harness-book-claude-code-guide)
 3. [Claude Code 和 Codex 的 Harness 设计哲学](/sources/harness-book-claude-code-vs-codex)
 
+## 章节精读系列
+
+### 围绕《Harness Engineering：Claude Code 设计指南》
+
+1. [精读 1：为什么 Prompt 不够，控制面才是 Claude Code 的骨架](/sources/harness-claude-control-plane)
+2. [精读 2：Query Loop、工具权限与中断，Claude Code 如何持续接管工作流](/sources/harness-claude-query-loop)
+3. [精读 3：恢复、验证与团队制度，Claude Code 为什么不只是个人工具](/sources/harness-claude-recovery-and-team)
+
+### 围绕《Claude Code 和 Codex 的 Harness 设计哲学》
+
+1. [精读 4：两种控制面，Claude Code 与 Codex 到底从哪里安放秩序](/sources/harness-compare-control-surfaces)
+2. [精读 5：运行时治理，主循环、沙箱、技能与验证如何协同](/sources/harness-compare-runtime-governance)
+3. [精读 6：如何选型与自建，从比较走向工程决策](/sources/harness-compare-build-strategy)
+
 ## 外部推荐
 
 1. [ccunpacked.dev](https://ccunpacked.dev)
@@ -53,8 +67,9 @@ Claude Code 已经不是“一个会写代码的 CLI”这么简单了。
 1. 先看 [ccunpacked.dev](https://ccunpacked.dev)，建立整体脑图。
 2. 再读 [Claude Code 源码架构深度解析 V2.0](/sources/claude-code-architecture-v2)，把主循环、工具系统、多 Agent 和安全层吃透。
 3. 再读 [Harness Engineering：Claude Code 设计指南](/sources/harness-book-claude-code-guide)，把 Claude Code 放回更大的 harness 语境里理解。
-4. 接着读 [Claude Code 和 Codex 的 Harness 设计哲学](/sources/harness-book-claude-code-vs-codex)，建立对不同系统分歧的判断力。
-5. 后续再把 Claude Code 相关的文章、技能、架构笔记持续归到这个模块里。
+4. 然后顺着三篇精读，把控制面、主循环、恢复和团队制度串起来。
+5. 接着读 [Claude Code 和 Codex 的 Harness 设计哲学](/sources/harness-book-claude-code-vs-codex)，建立对不同系统分歧的判断力。
+6. 最后读三篇比较精读，把这些分歧转成你自己的选型标准。
 
 ## 这个模块后续会放什么
 

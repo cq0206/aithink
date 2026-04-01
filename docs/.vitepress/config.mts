@@ -78,8 +78,32 @@ gtag('config', '${gaId}');`
                     link: "/sources/harness-book-claude-code-guide"
                   },
                   {
+                    text: "精读 1：控制面",
+                    link: "/sources/harness-claude-control-plane"
+                  },
+                  {
+                    text: "精读 2：主循环与工具治理",
+                    link: "/sources/harness-claude-query-loop"
+                  },
+                  {
+                    text: "精读 3：恢复、验证与团队制度",
+                    link: "/sources/harness-claude-recovery-and-team"
+                  },
+                  {
                     text: "Claude Code 与 Codex",
                     link: "/sources/harness-book-claude-code-vs-codex"
+                  },
+                  {
+                    text: "精读 4：两种控制面",
+                    link: "/sources/harness-compare-control-surfaces"
+                  },
+                  {
+                    text: "精读 5：运行时治理",
+                    link: "/sources/harness-compare-runtime-governance"
+                  },
+                  {
+                    text: "精读 6：如何选型与自建",
+                    link: "/sources/harness-compare-build-strategy"
                   }
                 ]
               }

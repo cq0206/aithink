@@ -95,6 +95,12 @@
 3. 如果你关心选型和路线判断，第 7 章和第 8 章最关键。
 4. 如果你准备自己做系统，附录 B 可以作为设计评审清单。
 
+## 章节精读入口
+
+1. [精读 4：两种控制面，Claude Code 与 Codex 到底从哪里安放秩序](/sources/harness-compare-control-surfaces)
+2. [精读 5：运行时治理，主循环、沙箱、技能与验证如何协同](/sources/harness-compare-runtime-governance)
+3. [精读 6：如何选型与自建，从比较走向工程决策](/sources/harness-compare-build-strategy)
+
 ## 这本书对 `aithink` 的价值
 
 `aithink` 不只是要收集“最好用的 AI 工具”，还要尽量解释清楚: 为什么有些工具能长期工作，而有些只能演示。第二本书的价值，就在于它把“产品差异”翻译成“控制结构差异”。
