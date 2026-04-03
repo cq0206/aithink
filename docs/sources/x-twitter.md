@@ -5,6 +5,7 @@
 ## 本周精选文章
 
 - [DeRonin 长文入口（含点评）](/sources/deronin-2033587293064204349)
+- [Simon Willison：Lenny 播客 Agent 式工程摘录](/sources/lennys-podcast)
 
 ## 模型与研究
 

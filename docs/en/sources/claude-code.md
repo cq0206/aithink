@@ -14,6 +14,7 @@ That makes it worth curating as a standalone topic.
 1. Chinese deep dive: [Claude Code Architecture Deep Dive V2.0](/sources/claude-code-architecture-v2)
 2. Chinese guide: [Harness Engineering: Claude Code Guide](/sources/harness-book-claude-code-guide)
 3. Chinese comparison guide: [Claude Code and Codex](/sources/harness-book-claude-code-vs-codex)
+4. Chinese article: [Harness Engineering and the Three Scaling Dimensions](/sources/harness-engineering-scalability-20260330)
 
 ## External recommendation
 

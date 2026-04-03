@@ -5,6 +5,7 @@
 ## Featured this week
 
 - [DeRonin article note](/en/sources/deronin-2033587293064204349)
+- [Simon Willison on Lenny Podcast](/en/sources/lennys-podcast)
 
 ## Models and research
 

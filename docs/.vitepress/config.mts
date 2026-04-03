@@ -51,6 +51,10 @@ gtag('config', '${gaId}');`
                     link: "/sources/openai-gpt54-frontends"
                   },
                   {
+                    text: "Lenny 播客 Agent 式工程",
+                    link: "/sources/lennys-podcast"
+                  },
+                  {
                     text: "模块，不是微服务",
                     link: "/sources/modules-not-microservices"
                   },
@@ -104,6 +108,10 @@ gtag('config', '${gaId}');`
                   {
                     text: "精读 6：如何选型与自建",
                     link: "/sources/harness-compare-build-strategy"
+                  },
+                  {
+                    text: "Harness 三维扩展框架",
+                    link: "/sources/harness-engineering-scalability-20260330"
                   }
                 ]
               }
@@ -158,6 +166,10 @@ gtag('config', '${gaId}');`
                     link: "/en/sources/openai-gpt54-frontends"
                   },
                   {
+                    text: "Lenny Podcast Agentic Engineering",
+                    link: "/en/sources/lennys-podcast"
+                  },
+                  {
                     text: "DeRonin Article Note",
                     link: "/en/sources/deronin-2033587293064204349"
                   },
@@ -179,6 +191,10 @@ gtag('config', '${gaId}');`
                   {
                     text: "Claude Code vs Codex",
                     link: "/sources/harness-book-claude-code-vs-codex"
+                  },
+                  {
+                    text: "Harness Scaling Framework",
+                    link: "/sources/harness-engineering-scalability-20260330"
                   }
                 ]
               }

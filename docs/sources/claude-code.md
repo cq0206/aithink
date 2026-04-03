@@ -14,6 +14,7 @@ Claude Code 已经不是“一个会写代码的 CLI”这么简单了。
 1. [Claude Code 源码架构深度解析 V2.0](/sources/claude-code-architecture-v2)
 2. [Harness Engineering：Claude Code 设计指南](/sources/harness-book-claude-code-guide)
 3. [Claude Code 和 Codex 的 Harness 设计哲学](/sources/harness-book-claude-code-vs-codex)
+4. [Harness Engineering 三维扩展框架（yage.ai）](/sources/harness-engineering-scalability-20260330)
 
 ## 章节精读系列
 
