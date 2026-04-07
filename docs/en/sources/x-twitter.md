@@ -6,6 +6,7 @@
 
 - [DeRonin article note](/en/sources/deronin-2033587293064204349)
 - [Simon Willison on Lenny Podcast](/en/sources/lennys-podcast)
+- [Dotey on Codex operating model](/en/sources/dotey-2041056119183851930)
 
 ## Models and research
 
