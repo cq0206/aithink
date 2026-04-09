@@ -55,6 +55,10 @@ gtag('config', '${gaId}');`
                     link: "/sources/lennys-podcast"
                   },
                   {
+                    text: "Anthropic Managed Agents",
+                    link: "/sources/managed-agents"
+                  },
+                  {
                     text: "模块，不是微服务",
                     link: "/sources/modules-not-microservices"
                   },

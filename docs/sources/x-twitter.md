@@ -7,6 +7,7 @@
 - [DeRonin 长文入口（含点评）](/sources/deronin-2033587293064204349)
 - [Simon Willison：Lenny 播客 Agent 式工程摘录](/sources/lennys-podcast)
 - [宝玉：Codex 团队运行机制访谈提炼](/sources/dotey-2041056119183851930)
+- [Anthropic：Managed Agents 架构设计全文翻译](/sources/managed-agents)
 
 ## 模型与研究
 
