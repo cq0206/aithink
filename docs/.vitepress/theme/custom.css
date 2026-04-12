@@ -177,10 +177,140 @@
   color: #334155;
 }
 
+.brief-hero {
+  margin: 8px 0 22px;
+  padding: 24px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.12), transparent 30%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(240, 249, 255, 0.92));
+  box-shadow: 0 20px 44px rgba(15, 23, 42, 0.06);
+}
+
+.brief-hero h1,
+.brief-hero h2 {
+  margin: 0 0 10px;
+  color: #0f172a;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  line-height: 1.15;
+}
+
+.brief-hero p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.8;
+}
+
+.issue-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0 30px;
+}
+
+.issue-card {
+  grid-column: span 12;
+  padding: 22px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.06);
+}
+
+.issue-card h3 {
+  margin: 0 0 10px;
+  color: #0f172a;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.issue-card p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.75;
+}
+
+.issue-meta {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #0f766e;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.section-kicker {
+  display: inline-block;
+  margin: 8px 0 4px;
+  color: #0f766e;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.picks-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0 30px;
+}
+
+.pick-card {
+  grid-column: span 6;
+  padding: 22px 20px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(248, 250, 252, 0.96));
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.06);
+}
+
+.pick-card h3 {
+  margin: 0 0 10px;
+  color: #0f172a;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.pick-card p {
+  margin: 0 0 10px;
+  color: #475569;
+  line-height: 1.75;
+}
+
+.pick-card ul {
+  margin: 10px 0 0 18px;
+}
+
+.pick-card li {
+  color: #334155;
+}
+
+.reading-sequence {
+  margin: 18px 0 30px;
+  padding: 20px 22px;
+  border-radius: 24px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: rgba(255, 255, 255, 0.84);
+}
+
+.reading-sequence ol {
+  margin: 10px 0 0 18px;
+}
+
+.reading-sequence li {
+  margin-bottom: 8px;
+  color: #334155;
+  line-height: 1.75;
+}
+
 @media (max-width: 960px) {
   .editorial-card,
   .editorial-card.wide,
-  .path-card {
+  .path-card,
+  .pick-card {
     grid-column: span 12;
   }
 
@@ -197,12 +327,17 @@
 
   .editorial-grid,
   .brief-list,
-  .path-grid {
+  .path-grid,
+  .issue-grid,
+  .picks-grid {
     gap: 12px;
   }
 
   .editorial-card,
-  .path-card {
+  .path-card,
+  .pick-card,
+  .issue-card,
+  .brief-hero {
     padding: 18px 16px;
     border-radius: 18px;
   }
@@ -211,5 +346,10 @@
     grid-template-columns: 1fr;
     gap: 8px;
     padding: 16px;
+  }
+
+  .reading-sequence {
+    padding: 16px;
+    border-radius: 18px;
   }
 }
