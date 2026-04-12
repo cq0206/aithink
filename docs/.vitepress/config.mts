@@ -36,11 +36,24 @@ gtag('config', '${gaId}');`
           outline: [2, 3],
           nav: [
             { text: "首页", link: "/" },
+            { text: "本周精选", link: "/brief/" },
             { text: "来源导航", link: "/sources/x-twitter" },
             { text: "学习路径", link: "/learning/roadmap" },
             { text: "方法论", link: "/guide/overview" }
           ],
           sidebar: {
+            "/brief/": [
+              {
+                text: "AI Think Brief",
+                items: [
+                  { text: "栏目总览", link: "/brief/" },
+                  {
+                    text: "第 1 期：从 Claude Code 到多智能体协作",
+                    link: "/brief/2026-week-15"
+                  }
+                ]
+              }
+            ],
             "/sources/": [
               {
                 text: "内容来源",
@@ -65,6 +78,10 @@ gtag('config', '${gaId}');`
                   {
                     text: "DeRonin 文章点评",
                     link: "/sources/deronin-2033587293064204349"
+                  },
+                  {
+                    text: "Anthropic 多智能体指南",
+                    link: "/sources/dotey-2043240706156728322"
                   },
                   { text: "优秀播客", link: "/sources/podcasts" },
                   { text: "经典论文", link: "/sources/papers" }

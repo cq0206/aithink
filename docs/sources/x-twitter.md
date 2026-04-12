@@ -8,6 +8,7 @@
 - [Simon Willison：Lenny 播客 Agent 式工程摘录](/sources/lennys-podcast)
 - [宝玉：Codex 团队运行机制访谈提炼](/sources/dotey-2041056119183851930)
 - [Anthropic：Managed Agents 架构设计全文翻译](/sources/managed-agents)
+- [Anthropic 多智能体协作指南【译】导读与点评](/sources/dotey-2043240706156728322)
 
 ## 模型与研究
 
