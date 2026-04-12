@@ -306,11 +306,167 @@
   line-height: 1.75;
 }
 
+.topic-hero {
+  margin: 8px 0 22px;
+  padding: 26px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at top left, rgba(15, 118, 110, 0.14), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(29, 78, 216, 0.09), transparent 26%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(244, 249, 255, 0.92));
+  box-shadow: 0 22px 48px rgba(15, 23, 42, 0.06);
+}
+
+.topic-hero h1 {
+  margin: 0 0 10px;
+  color: #0f172a;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  line-height: 1.12;
+}
+
+.topic-hero p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.8;
+}
+
+.topic-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0 30px;
+}
+
+.topic-meta-card {
+  grid-column: span 4;
+  padding: 18px 18px 16px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.05);
+}
+
+.topic-meta-card strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.topic-meta-card p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.75;
+}
+
+.topic-roadmap {
+  margin: 18px 0 30px;
+  padding: 22px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 26px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(248, 250, 252, 0.98));
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+}
+
+.topic-roadmap ol {
+  margin: 12px 0 0 18px;
+}
+
+.topic-roadmap li {
+  margin-bottom: 8px;
+  color: #334155;
+  line-height: 1.8;
+}
+
+.topic-section-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0 30px;
+}
+
+.topic-card {
+  grid-column: span 6;
+  padding: 22px 20px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+}
+
+.topic-card h3 {
+  margin: 0 0 10px;
+  color: #0f172a;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.topic-card p {
+  margin: 0 0 10px;
+  color: #475569;
+  line-height: 1.8;
+}
+
+.topic-card ul,
+.topic-card ol {
+  margin: 10px 0 0 18px;
+}
+
+.topic-card li {
+  color: #334155;
+  line-height: 1.75;
+}
+
+.topic-card.wide {
+  grid-column: span 12;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0 30px;
+}
+
+.resource-card {
+  grid-column: span 6;
+  padding: 22px 20px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(242, 247, 249, 0.96));
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.06);
+}
+
+.resource-card h3 {
+  margin: 0 0 10px;
+  color: #0f172a;
+  font-size: 22px;
+}
+
+.resource-card p {
+  margin: 0 0 10px;
+  color: #475569;
+  line-height: 1.8;
+}
+
+.resource-card ul {
+  margin: 10px 0 0 18px;
+}
+
+.resource-card li {
+  color: #334155;
+  line-height: 1.75;
+}
+
 @media (max-width: 960px) {
   .editorial-card,
   .editorial-card.wide,
   .path-card,
-  .pick-card {
+  .pick-card,
+  .topic-card,
+  .topic-card.wide,
+  .resource-card,
+  .topic-meta-card {
     grid-column: span 12;
   }
 
@@ -329,7 +485,10 @@
   .brief-list,
   .path-grid,
   .issue-grid,
-  .picks-grid {
+  .picks-grid,
+  .topic-meta-grid,
+  .topic-section-grid,
+  .resource-grid {
     gap: 12px;
   }
 
@@ -337,7 +496,12 @@
   .path-card,
   .pick-card,
   .issue-card,
-  .brief-hero {
+  .brief-hero,
+  .topic-hero,
+  .topic-roadmap,
+  .resource-card,
+  .topic-card,
+  .topic-meta-card {
     padding: 18px 16px;
     border-radius: 18px;
   }
